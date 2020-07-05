@@ -1,0 +1,31 @@
+ApplicationForms.form:
+  path: '/user/signinform'
+  defaults:
+    _title: 'Application Form'
+    _form: '\Drupal\applicationFor\Forms\SignInForm'
+  requirements:
+    _permission: 'access content'
+
+ApplicationForms:
+  path: '/user/InactiveList'
+  defaults:
+    _title: 'User Inactive List '
+    _form: '\Drupal\ApplicationForm\Form\InActiveUserList'
+  requirements:
+    _permission: 'administrator'
+
+ApplicationForm.form:
+  path: '/user/nextdetails'
+  defaults:
+    _title: 'Detail Form'
+    _form: '\Drupal\ApplicationForm\Form\SecondForm'
+  requirements:
+    _permission: 'access content'
+    
+ApplicationForms.form:
+  path: '/user/alldetails'
+  defaults:
+    _title: 'Details of login User'
+    _form: '\Drupal\Applicationform\Form\UserDetail'
+  requirements:
+    _permission: 'access content'

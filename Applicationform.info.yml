@@ -1,0 +1,6 @@
+name: Application form
+type: module
+description: 'Application form'
+version: 8.x
+package: Custom
+core_version_requirement: ^8 || ^9
